@@ -17,6 +17,7 @@ parserOptions:
 plugins:
   - react
   - '@typescript-eslint'
+ignorePatterns: ['vite.config.*']
 rules: {
   react/jsx-uses-react: "off",
   react/react-in-jsx-scope: "off",
